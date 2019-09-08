@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-before_action :move_to_index, exept: :index
+before_action :move_to_index, except: :index
 
 
   def index
